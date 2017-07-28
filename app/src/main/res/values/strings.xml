@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Animals</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_animal_one">AnimalOne</string>
+    <string name="title_activity_animal_two">AnimalTwo</string>
+    <string name="title_activity_animal_three">AnimalThree</string>
+    <string name="title_activity_animal_four">AnimalFour</string>
+    <string name="title_activity_animal_five">AnimalFive</string>
+    <string name="title_activity_finish">Finish</string>
+</resources>

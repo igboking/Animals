@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aliyu.animals">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AnimalOne"
+            android:label="@string/title_activity_animal_one"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AnimalTwo"
+            android:label="@string/title_activity_animal_two"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AnimalThree"
+            android:label="@string/title_activity_animal_three"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AnimalFour"
+            android:label="@string/title_activity_animal_four"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AnimalFive"
+            android:label="@string/title_activity_animal_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FinishActivity"
+            android:label="@string/title_activity_finish"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
